@@ -1,0 +1,49 @@
+/* Nastavení tmavého pozadí a světlého textu */
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Fixované horní menu */
+  .menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+  }
+  
+  .menu a:hover {
+    background-color: #575757;
+  }
+  
+  /* Prostor pod fixovaným menu */
+  .obsah {
+    margin-top: 60px;
+    padding: 20px;
+  }
+  
+  /* Styl pro patičku */
+  footer {
+    background-color: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+  }
+  
